@@ -25,27 +25,27 @@ const list = [
 	{
 		"title": "Notion",
 		"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Notion-logo.svg/2048px-Notion-logo.svg.png",
-		"link1": "https://www.notion.so/"
+		"link1": "https://www.notion.so/Simple-0-1-3b7a95a11f6943d6abc7c1fb98969788"
 	},
 	{
 		"title": "Coda",
-		"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Coda_logo.svg/1024px-Coda_logo.svg.png",
+		"img": "https://upload.wikimedia.org/wikipedia/en/3/3f/Coda_%28document_editor%29_logo.png",
 		"link1": "https://coda.io/"
 	},
 	{
 		"title": "Google Gemini",
-		"img": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/2023-05_GoogleGemini_inline1.width-1000.format-webp.webp",
-		"link1": "https://www.google.com/search?q=Google+Gemini"
+		"img": "https://assets-global.website-files.com/630d4d1c4a462569dd189855/6584a9975ade35940f95e9ba_2.webp",
+		"link1": "https://gemini.google.com/app"
 	},
 	{
 		"title": "ChatGPT",
 		"img": "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg",
-		"link1": "https://chat.openai.com/"
+		"link1": "https://chatgpt.com/"
 	},
 	{
 		"title": "Amie",
-		"img": "https://www.amie.so/icons/icon-192x192.png?v=1",
-		"link1": "https://www.amie.so/"
+		"img": "https://assets-global.website-files.com/5f15081919fdf673994ab5fd/65b33362f61ed97941c9ba91_Amie-Logo.svg",
+		"link1": "https://calendar.amie.so"
 	}
 
 ]

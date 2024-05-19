@@ -10,8 +10,8 @@ function Navibar() {
                 <CardBody>
                 <div className="flex justify-evenly text-white py-6 text-2xl font-semibold" >
                 <Link href="/"><div>Home</div></Link>
-                <div>About</div>
-                <Link href="/about"><div>Main</div></Link>
+                <div>Main</div>
+                <Link href="/about"><div>About</div></Link>
             </div>
                 </CardBody>
             </Card>

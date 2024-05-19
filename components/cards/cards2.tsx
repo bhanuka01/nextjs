@@ -15,7 +15,7 @@ function cards2({ message, url, image }: MyComponentProps) {
 		<Card
 			isFooterBlurred
 			radius="lg"
-			className="border-none   place-items-center bg-zinc-900 "
+			className="border-none flex justify-between  place-items-center bg-zinc-900 "
 		>
 			<Image
 				alt="Woman listing to music"
@@ -26,9 +26,7 @@ function cards2({ message, url, image }: MyComponentProps) {
 			/><Link href={url} target='_blank'>
 			<CardFooter className="justify-between  before:bg-white/10 border-white/20 border-1 overflow-hidden py-1  before:rounded-xl rounded-small   shadow-small   ">
 				<p className="text-tiny text-white/80 font-poppins font-bold">{message}</p>
-				{/* <Link href={url} target='_blank'><Button className="font-poppins font-bold text-white bg-black/20" variant="flat" color="default" radius="lg" size="sm" >
-					GO
-				</Button></Link> */}
+				
 			</CardFooter></Link>
 		</Card>
 

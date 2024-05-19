@@ -38,8 +38,10 @@ export default function RootLayout({
 					fontSans.variable
 				)}
 			>
+				
 				<Navibar/>
 				{children}
+				
 			</body>
 		</html>
 	);
