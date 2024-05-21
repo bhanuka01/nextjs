@@ -3,6 +3,7 @@ import { Metadata, Viewport } from "next";
 import { siteConfig } from "@/config/site";
 import { fontSans } from "@/config/fonts";
 
+import { Image } from "@nextui-org/image";
 
 
 import { Link } from "@nextui-org/link";
@@ -34,14 +35,22 @@ export default function RootLayout({
 			</head>
 			<body
 				className={clsx(
-					"min-h-screen  bg-black font-poppins antialiased lg:mx-32 sm:mx-8 md:mx-8 ",
+					"min-h-screen  bg-black font-poppins   ",
 					fontSans.variable
 				)}
 			>
+				<Image className="absolute blur-lg z-0 "
+					width={1900}
+					height={900}
+					alt="NextUI hero Image"
+					src="/1.jpg"
+				/>
+				<Navibar />
+
 				
-				<Navibar/>
-				{children}
-				
+				<section className="lg:mx-32 sm:mx-8 md:mx-8 antialiased">
+					{children}</section>
+
 			</body>
 		</html>
 	);

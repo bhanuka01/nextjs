@@ -16,7 +16,8 @@ const Page: React.FC = () => {
         if (inputValue === '123') {
             window.location.href = 'https://www.google.com';
         } else {
-            alert('Please type "123" to be redirected to Google');
+            // alert('Please type "123" to be redirected to Google');
+            window.location.href = 'https://www.youtube.com';
         }
     };
 
@@ -30,7 +31,6 @@ const Page: React.FC = () => {
         <div className="flex w-full flex-wrap md:flex-nowrap gap-4">
 
             <Input
-                
                 type="text"
                 value={inputValue}
                 color="warning"
